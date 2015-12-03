@@ -1,0 +1,140 @@
+::-moz-selection { /* Code for Firefox */
+    color: #5599cc;
+    background: #eee;
+}
+
+::selection {
+    color: #5599cc; 
+    background: #eee;
+
+}
+
+body{
+	font-family: 'Libre Baskerville', serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #5599cc;
+}
+html, body{
+	height: 100%;
+}
+
+h1{
+	font-size: 33px;
+	font-weight: bold;
+
+}
+
+/* Títulos */
+h2{
+	font-size: 60px;
+	font-style: italic;
+}
+/* Subtitulos */
+h3{
+	font-size: 20px;
+	width: 40%;
+	line-height: 32px;
+}
+
+h2, h3{
+    margin: 0px 6% 60px 6%;
+}
+
+/* Parágrafos */
+p{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #888;
+	font-size: 20px;
+	line-height: 32px;
+}
+
+
+/*  PARALLAX STYLES  */
+`
+  body, html {
+    overflow: hidden;
+  }
+
+.parallax {
+    height: 500px; /* fallback for older browsers */
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-perspective: 300px;
+    perspective: 300px;
+  }
+
+  .parallax__group {
+    position: relative;
+    height: 500px; /* fallback for older browsers */
+    height: 100vh;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+
+  .parallax__layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .parallax__layer--fore {
+    -webkit-transform: translateZ(90px) scale(.7);
+    transform: translateZ(90px) scale(.7);
+  }
+
+  .parallax__layer--base {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    background-color: rgba(255,0,255,0.2);
+  }
+
+  .parallax__layer--back {
+    -webkit-transform: translateZ(-300px) scale(2);
+    transform: translateZ(-300px) scale(2);
+    background: url("../img/1_header.jpg") center center;
+        
+  }
+
+  .parallax__layer--deep {
+    -webkit-transform: translateZ(-600px) scale(3);
+    transform: translateZ(-600px) scale(3);
+  }
+#group01 {
+    z-index: 10;
+}
+
+#group02 {
+    z-index: 5;
+}
+
+#group03 {
+    z-index: 8;
+}
+#group01 .parallax__layer--base{
+    background-color: fuchsia;
+}
+
+#group03 .parallax__layer--base{
+    background-color: aqua;
+}
+/*
+.parallax__group {
+    transform: translate3d(700px, 0, -800px) rotateY(30deg);
+}
+*/
+.title {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 60px;
+    font-weight: bolder;
+}
