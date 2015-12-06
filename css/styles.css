@@ -6,7 +6,6 @@
 ::selection {
     color: #5599cc; 
     background: #eee;
-
 }
 
 @font-face {
@@ -35,6 +34,7 @@ h1{
     font-size: 110px;
     line-height: 100px;
     text-shadow: 0px 12px 0px rgba(0, 0, 0, .08);
+    color: #e05e62;
 }
 h2{
     font-size: 20px;
@@ -147,6 +147,9 @@ p{
     z-index: 2;
     height: 500px; /* fallback for older browsers */
     height: 100vh;
+}
+#group01 .GroupContainer{
+    max-width: 700px;
 }
 .group01_bg {
     background: url("../img/img_bg_01.jpg") center center;
