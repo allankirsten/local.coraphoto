@@ -96,25 +96,67 @@ p{
   .parallax__layer--back {
     -webkit-transform: translateZ(-300px) scale(2);
     transform: translateZ(-300px) scale(2);
-    background: url("../img/1_header.jpg") center center;
-        
   }
 
   .parallax__layer--deep {
     -webkit-transform: translateZ(-600px) scale(3);
     transform: translateZ(-600px) scale(3);
   }
-#group01 {
+/*  --  Header Cores  --  */
+.HeadColors {
+    position: absolute;
+    display: table;
+    width: 100%;
+    height: 10px;
+    position: fixed;
     z-index: 10;
+}
+.HeadColor {
+    display: table-cell;
+    height: 100%;
+    width: 33%;
+}
+.Color1 {
+    background-color: #e05e62;
+}
+.Color2 {
+    background-color: #8bcaba;
+}
+.Color3 {
+    background-color: #bee1ef;
+}
+
+#group01 {
+    z-index: 2;
+}
+.group01_bg {
+    background: url("../img/img_bg_01.jpg") center center;
 }
 
 #group02 {
-    z-index: 5;
+    z-index: 1;
+}
+.group02_bg {
+    background: url("../img/img_bg_01.jpg") center center;
 }
 
 #group03 {
-    z-index: 8;
+    z-index: 2;
 }
+.group03_bg {
+    background: url("../img/img_bg_01.jpg") center center;
+}
+
+#group04 {
+    z-index: 1;
+}
+.group04_bg {
+    background: url("../img/img_bg_01.jpg") center center;
+}
+
+
+
+
 #group01 .parallax__layer--base{
     background-color: fuchsia;
 }
