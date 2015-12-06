@@ -23,27 +23,23 @@
 }
 
 body{
-	font-family: 'Libre Baskerville', serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	color: #5599cc;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
 }
 html, body{
 	height: 100%;
 }
 
 h1{
-	font-size: 33px;
-	font-weight: bold;
-
+    font-family: "FabfeltScriptBold";
+    font-size: 110px;
+    line-height: 100px;
+    text-shadow: 0px 12px 0px rgba(0, 0, 0, .08);
 }
-
-/* Títulos */
 h2{
-	font-size: 60px;
-	font-style: italic;
-}
-/* Subtitulos */
+    font-size: 20px;
+    line-height: 26px;
+}/* Subtitulos */
 h3{
 	font-size: 20px;
 	width: 40%;
@@ -56,11 +52,7 @@ h2, h3{
 
 /* Parágrafos */
 p{
-	font-family: 'Lato', sans-serif;
-	font-weight: 300;
-	color: #888;
-	font-size: 20px;
-	line-height: 32px;
+    
 }
 
 
@@ -135,7 +127,22 @@ p{
 .Color3 {
     background-color: #bee1ef;
 }
+.GroupContainer {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
 
+.GroupTitle {
+    font-family: "FabfeltScriptBold";
+    line-height: 60px;
+    font-size: 60px;
+    text-shadow: 0px 12px 0px rgba(0, 0, 0, .08);
+}
 #group01 {
     z-index: 2;
     height: 500px; /* fallback for older browsers */
@@ -176,7 +183,7 @@ p{
 
 
 
-
+/*OLD*/
 #group01 .parallax__layer--base{
     background-color: fuchsia;
 }
@@ -189,17 +196,3 @@ p{
     transform: translate3d(700px, 0, -800px) rotateY(30deg);
 }
 */
-.GroupContainer {
-    text-align: center;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-.GroupTitle {
-    font-family: "FabfeltScriptBold";
-    line-height: 60px;
-    font-size: 60px;
-}
