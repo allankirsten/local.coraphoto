@@ -144,10 +144,11 @@ p{
 .GroupTitle {
     font-family: "FabfeltScriptBold";
     font-size: 60px;
-    line-height: 45px;
+    line-height: 50px;
     margin-bottom: 20px;
     text-shadow: 0px 12px 0px rgba(0, 0, 0, .08);
 }
+
 #group01 {
     z-index: 2;
     height: 500px; /* fallback for older browsers */
@@ -214,12 +215,23 @@ p{
     background: url("../img/img_bg_06.jpg") center center;
 }
 
+#group07 {
+    z-index: 2;
+    height: 500px; /* fallback for older browsers */
+    height: 100vh;
+}
+#group07 .bg {
+    background: url("../img/img_bg_07.jpg") center center;
+}
+
 #groupForm {
     z-index: 1;
     height: 500px; /* fallback for older browsers */
     height: 100vh;
 }
-
+.bg{
+    background-size: cover !important;
+}
 #groupForm .parallax__layer--fore{
     background: url("../img/img_bg_form_fotos1.png") center center;
     background-size: cover;
