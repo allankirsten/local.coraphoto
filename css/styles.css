@@ -264,6 +264,7 @@ p{
     background-color: #fff;
     font-family: "FabfeltScriptBold";
     color: #fff;
+    text-shadow: 0px 12px 0px rgba(0, 0, 0, .08);
 }
 #FinalGroup a{
     text-decoration: none;
@@ -385,9 +386,10 @@ input[type=text]:focus {
 }
 
 .FinalFacebook {
-    width: 60px;
-    height: 60px;
-    background: url(../svg/facebook.svg) no-repeat 24px 16px;
+    width: 50px;
+    height: 50px;
+    background: url(../svg/facebook.svg) no-repeat 21px 12px;
+    background-size: 40%;
     background-color: #405a97;
     border-radius: 5px;
     margin: auto;
