@@ -262,7 +262,17 @@ p{
     height: 500px; /* fallback for older browsers */
     height: 100vh;
     background-color: #fff;
-    
+    font-family: "FabfeltScriptBold";
+    color: #fff;
+}
+#FinalGroup a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+#FinalGroup .bg{
+    background: url("../img/img_bg_footer.jpg") center center;   
 }
 
 /*
@@ -349,3 +359,44 @@ input[type=text]:focus {
 }
 
 
+
+.FinalCora {
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    background: url(../svg/coraSub.svg);
+    margin-bottom: 20px;
+}
+
+.FinalMail {
+    font-size: 40px;
+    -webkit-transition:all 0.2s ease-in-out;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+}
+.FinalMail:hover{
+    color: #fffdbd;
+}
+
+.FinalPhone {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.FinalFacebook {
+    width: 60px;
+    height: 60px;
+    background: url(../svg/facebook.svg) no-repeat 24px 16px;
+    background-color: #405a97;
+    border-radius: 5px;
+    margin: auto;
+    
+    -webkit-transition:all 0.2s ease-in-out;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+}
+.FinalFacebook:hover{
+    background-color: #43424c;
+}
