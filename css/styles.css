@@ -216,6 +216,17 @@ p{
     height: 500px; /* fallback for older browsers */
     height: 100vh;
 }
+
+#groupForm .parallax__layer--fore{
+    background: url("../img/img_bg_form_fotos1.png") center center;
+    background-size: cover;
+}
+
+#groupForm{
+    background: url("../img/img_bg_form_fotos2.png") center center;
+    background-size: cover;
+}
+
 #groupForm .bg {
     background: url("../img/img_bg_form.jpg") center center;
 }
@@ -247,7 +258,8 @@ p{
 
 .Formulario {
     max-width: 450px;
-    margin: auto
+    margin: auto;
+    z-index: 200;
 }
 
 input{
