@@ -155,14 +155,9 @@ p{
 #group01 img{
     width: 60px;
 }
-.group01_bg {
+#group01 .bg {
     background: url("../img/img_bg_01.jpg") center center;
 }
-.group02_bg {
-    background: url("../img/img_bg_02.jpg") center center;
-}
-.group03_bg {
-    background: url("../img/img_bg_03.jpg") center center;
 }
 #group02 {
     z-index: 1;
@@ -171,7 +166,6 @@ p{
     background-color: rgba(225,95,100,0.7);
     color: #fff;
 }
-.group02_bg {
     background: url("../img/img_bg_02.jpg") center center;
 }
 
@@ -180,16 +174,13 @@ p{
     height: 500px; /* fallback for older browsers */
     height: 100vh;
 }
-.group03_bg {
     background: url("../img/img_bg_03.jpg") center center;
 }
 
 #group04 {
     z-index: 1;
-    height: 500px; /* fallback for older browsers */
     height: 100vh;
 }
-.group04_bg {
     background: url("../img/img_bg_04.jpg") center center;
 }
 #group05 {
@@ -197,7 +188,6 @@ p{
     height: 500px; /* fallback for older browsers */
     height: 100vh;
 }
-.group05_bg {
     background: url("../img/img_bg_05.jpg") center center;
 }
 
@@ -206,14 +196,12 @@ p{
     height: 500px; /* fallback for older browsers */
     height: 100vh;
 }
-.group06_bg {
     background: url("../img/img_bg_06.jpg") center center;
 }
 #FinalGroup {
     z-index: 2;
     height: 500px; /* fallback for older browsers */
     height: 100vh;
-    background-color: rgba(225,95,100,0.7);
     color: #fff;
 }
 
