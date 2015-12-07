@@ -112,6 +112,10 @@ p{
     height: 10px;
     position: fixed;
     z-index: 10;
+    
+     -webkit-box-shadow: 0px 4px 0px 0px rgba(0,0,0,0.08);
+    -moz-box-shadow: 0px 4px 0px 0px rgba(0,0,0,0.08);
+    box-shadow: 0px 4px 0px 0px rgba(0,0,0,0.08);
 }
 .HeadColor {
     display: table-cell;
@@ -218,6 +222,7 @@ p{
 
 #groupForm .GroupTitle{
     color: #e05e62;
+    font-size: 70px;
 }
 
 #FinalGroup {
