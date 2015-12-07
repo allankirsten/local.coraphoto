@@ -1,10 +1,10 @@
 ::-moz-selection { /* Code for Firefox */
-    color: #5599cc;
+    color: #5598bcaba9cc;
     background: #eee;
 }
 
 ::selection {
-    color: #5599cc; 
+    color: #8bcaba; 
     background: #eee;
 }
 
@@ -234,6 +234,9 @@ p{
 #groupForm .GroupTitle{
     color: #e05e62;
     font-size: 70px;
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 60px;
 }
 
 #FinalGroup {
@@ -259,7 +262,7 @@ p{
 .Formulario {
     max-width: 450px;
     margin: auto;
-    z-index: 200;
+    z-index: 2000;
 }
 
 input{
@@ -287,6 +290,17 @@ input{
 }
 :-ms-input-placeholder { /* Internet Explorer 10+ */
    color:    #8bcaba;
+}
+
+input[type=text] {
+    
+    transition: ease-in-out, width .35s ease-in-out;
+}
+
+input[type=text]:focus {
+    border-color: #e05e62;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #e05e62;
+    outline: 0 none;
 }
 
 .SubmitButton {
