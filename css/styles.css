@@ -158,12 +158,11 @@ p{
     max-width: 600px;
 }
 #group01 img{
-    width: 230px;
+    width: 200px;
     margin-bottom: 60px;
 }
 #group01 .bg {
     background: url("../img/img_bg_01.jpg") center center;
-    background-size: cover;
 }
 #group02 {
     z-index: 1;
@@ -231,16 +230,13 @@ p{
     height: 100vh;
 }
 .bg{
-    background-size: cover !important;
-}
-#groupForm .parallax__layer--fore{
-    background: url("../img/img_bg_form_fotos1.png") center center;
-    background-size: cover;
+    background-repeat: no-repeat !important;
 }
 
 #groupForm{
-    background: url("../img/img_bg_form_fotos2.png") center center;
-    background-size: cover;
+    background: url("../img/img_bg_form_fotos1.png") center center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #groupForm .bg {
@@ -402,4 +398,25 @@ input[type=text]:focus {
 }
 .FinalFacebook:hover{
     background-color: #43424c;
+}
+@media only screen and (max-width: 820px) and (orientation: portrait) {
+    
+    #group04 .bg{
+    background-size: contain !important;
+    background-color: #e05e62;
+    }
+    #group05 .bg{
+        background-size: contain !important;
+        background-color: #8bcaba;
+    }
+    #group06 .bg{
+        background-size: contain !important;
+        background-color: #bee1ef;
+    }
+    
+    #groupForm{
+    background: url("../img/img_bg_form_fotos1.png") center center;
+    background-size: cover;
+}
+
 }
