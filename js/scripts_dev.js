@@ -1,17 +1,3 @@
-$(window).scroll(function() {
-
-	var altura = $(window).height()
-
-if ($(this).scrollTop() > (altura-110)){  
-
-    $(MenuHeader).addClass("MenuHeaderShow");
-
-  }else{
-
-    $(MenuHeader).removeClass("MenuHeaderShow");
-    
-  }
-});
 
 //Scroll to top
 

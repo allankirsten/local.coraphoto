@@ -1,19 +1,3 @@
-$( document ).ready(function(){
-
-	Formulario.init();
-	
-});
-
-$(window).scroll(function() {
-if ($(this).scrollTop() > 400){  
-	//alert("legal")
-    $('header').addClass("show");
-  }
-  else{
-    $('header').removeClass("show");
-  }
-});
-
 var Formulario = {
 
 	init: function() {
