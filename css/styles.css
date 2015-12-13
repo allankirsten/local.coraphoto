@@ -223,7 +223,30 @@ p{
 #group07 .bg {
     background: url("../img/img_bg_07.jpg") center center;
 }
-
+#group04 .bg{
+    background-size: contain !important;
+    background-color: #e05e62;
+}
+#group05 .bg{
+    background-size: contain !important;
+    background-color: #8bcaba;
+}
+#group06 .bg{
+    background-size: contain !important;
+    background-color: #bee1ef;
+}
+#group04{
+    border-top: solid #e05e62 20px;
+    border-bottom: solid #e05e62 20px;
+}
+#group05{
+    border-top: solid #8bcaba 20px;
+    border-bottom: solid #8bcaba 20px;
+}
+#group06{
+    border-top: solid #bee1ef 20px;
+    border-bottom: solid #bee1ef 20px;
+}
 #groupForm {
     z-index: 1;
     height: 500px; /* fallback for older browsers */
@@ -401,22 +424,9 @@ input[type=text]:focus {
 }
 @media only screen and (max-width: 820px) and (orientation: portrait) {
     
-    #group04 .bg{
-    background-size: contain !important;
-    background-color: #e05e62;
-    }
-    #group05 .bg{
-        background-size: contain !important;
-        background-color: #8bcaba;
-    }
-    #group06 .bg{
-        background-size: contain !important;
-        background-color: #bee1ef;
-    }
-    
     #groupForm{
     background: url("../img/img_bg_form_fotos1.png") center center;
     background-size: cover;
-}
+    }
 
 }
